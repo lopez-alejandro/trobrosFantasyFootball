@@ -1,0 +1,29 @@
+{
+  "name": "Person",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "first_name": {
+      "type": "string",
+      "required": true,
+      "default": "test@demo.com"
+    },
+    "last_name": {
+      "type": "string",
+      "required": true,
+      "default": "test@demo.com"
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "default": "test@demo.com"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Player",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "points": {
+      "type": [
+        "number"
+      ],
+      "default": [
+        0
+      ]
+    },
+    "benched": {
+      "type": "boolean",
+      "default": false
+    },
+    "status": {
+      "type": "string",
+      "default": ""
+    },
+    "active_roster_id": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

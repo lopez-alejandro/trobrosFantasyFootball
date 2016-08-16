@@ -1,0 +1,33 @@
+{
+  "name": "Game",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "team_one_id": {
+      "type": "number",
+      "required": true,
+      "default": -1
+    },
+    "team_two_id": {
+      "type": "number",
+      "required": true,
+      "default": -1
+    },
+    "week_number": {
+      "type": "number",
+      "required": true,
+      "default": -1
+    },
+    "winner_id": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

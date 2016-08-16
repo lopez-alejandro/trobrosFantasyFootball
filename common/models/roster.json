@@ -1,0 +1,24 @@
+{
+  "name": "Roster",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "team_id": {
+      "type": "number",
+      "required": true,
+      "default": -1
+    },
+    "week_number": {
+      "type": "number",
+      "required": true,
+      "default": -1
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
